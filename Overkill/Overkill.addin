@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Overkill</Text>
+    <Description>Some description for Overkill</Description>
+    <Assembly>Overkill.dll</Assembly>
+    <FullClassName>Overkill.Command</FullClassName>
+    <ClientId>8564341d-888b-4883-8442-097602f4f250</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Overkill</Name>
+    <Assembly>Overkill.dll</Assembly>
+    <FullClassName>Overkill.App</FullClassName>
+    <ClientId>b9a32bfe-a27a-4808-8f90-f4e5ed6db1ac</ClientId>
+    <VendorId>TBC_</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
